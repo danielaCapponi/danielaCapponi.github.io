@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
         <Head>
-          <title>Trilátera .:.</title>
+          <title>.:.</title>
         </Head>
         {router.route !== "/login" &&
           router.route !== "/registro" && <Header />}
